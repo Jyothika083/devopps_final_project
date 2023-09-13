@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display details</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: #81cdf8;
+            background-image: url("col.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: "Poppins",sans-serif;
+            overflow-x: hidden;
+        }
+        .top
+        {
+            text-align: center;
+        }
+        .btn_pre
+        {
+            margin-left: 75px;
+            width: 350px;
+            height: 30px;
+            padding: 20px;
+            padding-right: 80%;
+        }
+        .b{
+            font-size: large;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="Images/logo.png" width="140px" height="140px"/>
+        <h1>BMS College of Engineering</h1>
+    </div>
+    <div class="btn_pre" class="b">
+        <a href="index.php">
+            <button type="button" class="b">Previous</button>
+        </a>
+    </div>
+    <div class='in'>
+        <h2>Check your application details</h2>
+        <form>
+            <label class="required">Application id:</label>
+            <input type="text"  placeholder="Enter Your Application id" name="appid" maxlength="50" size="50"required><br/>
+            <label class="required">Email id:</label>
+            <input type="text"  placeholder="Enter Your Email id" name="email" maxlength="50" size="50"required>
+            
+        </form>
+    </div>
+
+</body>
+</html>
