@@ -23,7 +23,7 @@
 
 <body>
     <div class="main">
-        <marquee style=" color:green;height: 25px; width:100%;margin: 0px; background-color: white; padding: 5px;">In the
+        <marquee style=" color:purple;height: 25px; width:100%;margin: 0px; background-color: white; padding: 5px;">In the
             National Institutional Ranking Framework(NIRF 2023) the Institution is
             ranked 83rd among top Engineering colleges in the country</marquee>
         <div class="logo">
